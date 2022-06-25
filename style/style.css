@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-image: url(/img/top.webp);
+    background-image: url(/Parallax/img/top.webp);
     height: 700px;
     border-top: 1px solid rgb(108, 183, 244);
     background-repeat: no-repeat;
@@ -75,21 +75,21 @@ section h2 {
     letter-spacing: 1px;
 }
 .article-img-1 {
-    background-image: url(/img/aisde.webp);
+    background-image: url(/Parallax/img/aisde.webp);
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
     height: 500px;
 }
 .article-img-2{
-    background: url(/img/article.jpg);
+    background: url(/parallax/img/article.jpg);
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
     height: 500px;
 }
 .image-small {
-    background-image: url(/img/footer.webp);
+    background-image: url(/parallax/img/footer.webp);
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
