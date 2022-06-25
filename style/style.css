@@ -1,0 +1,136 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+header {
+    background-image: url(/img/top.webp);
+    height: 700px;
+    border-top: 1px solid rgb(108, 183, 244);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.header-top h1 {
+text-align: center;
+color: white;
+background: black;
+border-radius: 5px;
+width: 400px;
+padding: 10px;
+letter-spacing: .3em ;
+margin: 283px auto  ;
+}
+.header-top h1:hover {
+    background: linear-gradient(#CD7F32, #a97142);
+}
+.icons li{
+    list-style-type: none;
+    font-size: 30px;
+    padding: 5px;
+    color: black;
+    float: left;
+    margin: 5px;
+}
+.icons a {
+    color: rgba(255, 255, 255, 0.819);
+}
+.icons a:hover {
+    color: #49bf9d;
+    transition: color .4s linear;
+}
+.burguer li{
+    display: flex;
+    font-size: 1.1em;
+    justify-content: right;
+    margin-right: 30px;
+    padding: 10px;
+}
+.burguer a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.burguer a:hover {
+    border-bottom: 1px solid black;
+    transition: border .6s linear
+}
+.article-one {
+ text-align: center;
+ padding: 50px 80px;
+ background-color: #f4f4f4;
+ display: block;
+}
+section h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.article-text {
+    text-align: center;
+    padding: 50px 80px;
+    background-color: black;
+    color: white;
+    display: block;
+    letter-spacing: 1px;
+}
+.article-img-1 {
+    background-image: url(/img/aisde.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.article-img-2{
+    background: url(/img/article.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.image-small {
+    background-image: url(/img/footer.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.span{
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: .8em;
+    text-align: center;
+    display: block;
+    padding: 150px 50px;
+}
+.footer {
+    background-color: rgb(47, 47, 148);
+    height: 100px;
+    overflow: hidden;
+}
+.footer p {
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+.footer ul {
+    display: block;
+    text-align: center;
+}
+.footer li {
+    display: inline;
+   
+}
+.footer a {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+}
+.footer a:hover {
+    color: white;
+    transition: color .5s linear;
+}
+
+
+
